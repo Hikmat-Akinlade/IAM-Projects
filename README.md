@@ -1,21 +1,21 @@
-# Using Azure Key Vault with Managed Identities
+# Multi-Factor Authentication Setup
 
 ## 🔍 Objective
-Use Azure Key Vault with managed identities to access secrets securely without storing credentials in code.
+Enable and test MFA using Microsoft Entra ID for secure user sign-ins.
 
 ## 🛠 Tools & Platforms
-- Microsoft Azure
-- Azure Key Vault
 - Microsoft Entra ID
+- Microsoft Authenticator
+- Azure Portal
 
 ## 🧪 Steps Taken
-1. Created a Key Vault and enabled access policies.
-2. Assigned a managed identity to a virtual machine.
-3. Configured the VM to retrieve secrets from the Key Vault.
+1. Enabled MFA for test users in Microsoft Entra ID.
+2. Configured MFA settings and registration policies.
+3. Tested login scenarios requiring MFA prompts.
 
 ## ✅ Key Takeaways
-- Learned how managed identities eliminate hardcoded credentials.
-- Understood how access policies control secret access.
+- Gained hands-on experience setting up MFA.
+- Understood different user MFA registration options.
 
 ## 📸 Screenshots or Outputs (Optional)
 *Insert screenshot or output snippet here*
